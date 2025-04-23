@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import Navbar from './components/Navbar';
 import Landingpage from './components/Landingpage';
 import ScrollVelocity from './components/ScrollVelocity';
