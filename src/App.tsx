@@ -3,6 +3,11 @@ import Navbar from './components/Navbar';
 import Landingpage from './components/Landingpage';
 import ScrollVelocity from './components/ScrollVelocity';
 import FlowingMenu from './components/FlowingMenu';
+import ServicesSection from './components/ServicesSection';
+import ProjectShowcase from './components/ProjectShowcase';
+import TiltedCard from './components/TiltedCard';
+import Features from './components/Features';
+
 
 const demoItems = [
   { link: '#', text: 'Mojave', image: 'https://picsum.photos/600/400?random=1' },
@@ -21,16 +26,27 @@ function App() {
         velocity={200}
         className="custom-scroll-text"
       />
-      
-      {/* Add FlowingMenu section */}
-      <div style={{ 
-        height: '600px', 
+
+
+      <main className="min-h-screen bg-black">
+        <ServicesSection />
+      </main>
+      {/* <ProjectShowcase /> */}
+            {/* Add FlowingMenu section */}
+            <div style={{
+        height: '600px',
         position: 'relative',
         margin: '80px 0',
-        background: '#070707' 
+        background: '#070707'
       }}>
         <FlowingMenu items={demoItems} />
       </div>
+      
+
+
+
+
+
     </>
   );
 }

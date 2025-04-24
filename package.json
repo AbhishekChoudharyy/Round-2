@@ -15,8 +15,10 @@
     "@tailwindcss/vite": "^4.1.4",
     "framer-motion": "^12.8.0",
     "gsap": "^3.12.7",
+    "lucide-react": "^0.503.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0",
     "styled-jsx": "^5.1.6",
     "tailwindcss": "^4.1.4"
   },
