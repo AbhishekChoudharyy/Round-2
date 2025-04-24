@@ -1,4 +1,4 @@
-import { FC } from "react";
+import { FC, JSX } from "react";
 import { FaCode, FaShieldAlt, FaChartLine, FaShoppingCart } from "react-icons/fa";
 import { FiLayout } from "react-icons/fi";
 

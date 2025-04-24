@@ -4,9 +4,6 @@ import Landingpage from './components/Landingpage';
 import ScrollVelocity from './components/ScrollVelocity';
 import FlowingMenu from './components/FlowingMenu';
 import ServicesSection from './components/ServicesSection';
-import ProjectShowcase from './components/ProjectShowcase';
-import TiltedCard from './components/TiltedCard';
-import Features from './components/Features';
 
 
 const demoItems = [
